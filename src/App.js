@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import PatientHistory from "./pages/Patient_History"; 
+
 function App() {
   return (
     <Router>
@@ -14,4 +15,3 @@ function App() {
 }
 
 export default App;
-
