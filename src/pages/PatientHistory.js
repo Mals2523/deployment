@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./PatientHistory.css";
 
-const PatientHistory = () => {
+const Patient_History = () => {
   const [history, setHistory] = useState([]);
 
   useEffect(() => {
@@ -24,3 +24,9 @@ const PatientHistory = () => {
     </div>
   );
 };
+const PatientHistory = () => {
+    return <div>Patient History Page</div>;
+  };
+  
+  export default PatientHistory;
+  

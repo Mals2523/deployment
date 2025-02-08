@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DoctorDashboard from "./pages/DoctorDashboard";
-import PatientHistory from "./pages/PatientHistory";
-
+import PatientHistory from "./pages/Patient_History";
 
 function App() {
   return (
